@@ -274,10 +274,177 @@
     height: 100vh;
   }
 
-  .programacao h1 {
+  #programming_2 img {
+    width: 25vw;
+    height: 20%;
     position: absolute;
-    top: 450vw;
+    top: 430vw;
+    left: 4vw;
+    border: solid 1px #ee4a45;
+  }
+
+  #programming_3 img {
+    width: 25vw;
+    height: 20%;
+    position: absolute;
+    top: 480vw;
+    left: 4vw;
+    border: solid 1px #ee4a45;
+  }
+
+  #programming_4 img {
+    width: 25vw;
+    height: 20%;
+    position: absolute;
+    top: 530vw;
+    left: 4vw;
+    border: solid 1px #ee4a45;
+  }
+
+  .programming img {
+    width: 25vw;
+    height: 20%;
+    position: absolute;
+    top: 380vw;
+    left: 4vw;
+    border: solid 1px #ee4a45;
+  }
+
+  #timer {
+    position: absolute;
+    top: 380vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  #timer-description {
+    position: absolute;
+    top: 397vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 24px;
+    font-family: "Frutiger";
+  }
+
+  #presenter {
+    position: absolute;
+    color: #ee4a45;
+    top: 410vw;
+    left: 32vw;
+    max-width: 30vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  #timer_2 {
+    position: absolute;
+    top: 435vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  #timer-description_2 {
+    position: absolute;
+    top: 453vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 24px;
+    font-family: "Frutiger";
+  }
+
+  #presenter_2 {
+    position: absolute;
+    color: #ee4a45;
+    top: 468vw;
+    left: 32vw;
+    max-width: 70vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  #timer_3 {
+    position: absolute;
+    top: 480vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  #timer-description_3 {
+    position: absolute;
+    top: 500vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 24px;
+    font-family: "Frutiger";
+  }
+
+  #presenter_3 {
+    position: absolute;
+    color: #ee4a45;
+    top: 516vw;
+    left: 32vw;
+    max-width: 70vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  #timer_4 {
+    position: absolute;
+    top: 530vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  #timer-description_4 {
+    position: absolute;
+    top: 550vw;
+    left: 32vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 24px;
+    font-family: "Frutiger";
+  }
+
+  #presenter_3 {
+    position: absolute;
+    color: #ee4a45;
+    top: 516vw;
+    left: 32vw;
+    max-width: 70vw;
+    z-index: 1000;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Frutiger";
+  }
+
+  .programacao h1 {
+    font-family: "Avenir";
+    position: absolute;
+    top: 360vw;
+    left: 5vw;
     text-align: center;
+    color: white;
   }
 
   .zona-azul img {
