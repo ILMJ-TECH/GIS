@@ -1,0 +1,430 @@
+@font-face {
+  font-family: "Avenir";
+  src: url(assets/font/Avenir\ Next.ttc);
+}
+
+@font-face {
+  font-family: "Frutiger";
+  src: url(assets/font/FrutigerNextLT-Light.ttf);
+}
+
+@font-face {
+  font-family: "Avenir-condensed";
+  src: url(assets/font/Avenir\ Next\ Condensed.ttc);
+}
+
+* {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Frutiger";
+}
+
+@media screen and (max-width: 900px) {
+  #desktop {
+    display: none;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-text {
+    background-color: #29348a;
+  }
+
+  #date {
+    display: flex;
+    background-color: #29348a;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 4px;
+    position: absolute;
+    top: 47.5vw;
+    left: 20%;
+    padding: 5px;
+    padding-right: 5px;
+  }
+
+  #date i {
+    color: #29348a;
+    font-size: 14px;
+    align-self: center;
+    padding: 1px;
+    background-color: #01ff01;
+    border-radius: 3px;
+  }
+
+  #date h1 {
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 5px;
+    padding-top: 1px;
+    position: relative;
+    top: -1px;
+  }
+
+  #time {
+    display: flex;
+    background-color: #29348a;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 4px;
+    position: absolute;
+    top: 16%;
+    left: 59%;
+    padding: 5px;
+    padding-right: 5px;
+  }
+
+  #time i {
+    color: #29348a;
+    font-size: 14px;
+    align-self: center;
+    padding: 3px;
+    background-color: #01ff01;
+    border-radius: 3px;
+  }
+
+  #time h2 {
+    font-size: 9px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 5px;
+    padding-top: 1px;
+    position: relative;
+    top: -8px;
+  }
+
+  #time h1 {
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 5px;
+    padding-top: 1px;
+    position: relative;
+    top: 3px;
+    left: -19px;
+  }
+
+  #method {
+    display: flex;
+    background-color: #29348a;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 4px;
+    position: absolute;
+    top: 72vw;
+    left: 40%;
+    transform: translateX(-50%);
+    padding: 5px;
+    padding-right: 5px;
+  }
+
+  #method i {
+    color: #29348a;
+    font-size: 16px;
+    align-self: center;
+    padding: 2px;
+    background-color: #01ff01;
+    border-radius: 3px;
+  }
+
+  #method h1 {
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 5px;
+    padding-top: 1px;
+    position: relative;
+    top: -1px;
+  }
+  .separator {
+    background-color: #29348a;
+    height: 4px;
+    position: absolute;
+    top: 83vw;
+    min-width: 100%;
+    z-index: 1000;
+  }
+
+  .logos img {
+    position: absolute;
+    top: 85vw;
+    left: 3%;
+    z-index: 1000;
+    height: 60px;
+    width: 250px;
+  }
+
+  #green {
+    color: #01ff01;
+  }
+
+  .Text-Caller {
+    position: absolute;
+    top: 100vw;
+    left: 9%;
+    z-index: 1000;
+  }
+
+  .Text-Caller h1 {
+    font-size: 26px;
+    color: white;
+  }
+
+  .text {
+    color: white;
+    position: absolute;
+    top: 125vw;
+    left: 9%;
+    z-index: 1000;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  #greenButton {
+    background-color: #01ff01;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.6s ease-in-out;
+    transition: background-color 0.6s ease-in-out;
+  }
+
+  .buttons {
+    position: absolute;
+    top: 150vw;
+    left: 13%;
+  }
+
+  #regular {
+    background-color: transparent;
+    border: solid 1px white;
+    color: #01ff01;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.6s ease-in-out;
+    transition: background-color 0.6s ease-in-out;
+  }
+
+  #regular:hover {
+    background-color: #01ff01;
+    color: #29348a;
+    border: none;
+  }
+
+  #greenButton:hover {
+    background-color: transparent;
+    color: #01ff01;
+  }
+
+  .section_2 {
+    height: 60vh;
+  }
+
+  .imagem_2 img {
+    width: 50%;
+    position: absolute;
+    top: 179vw;
+  }
+
+  .texto_01 {
+    position: relative;
+    left: 48%;
+    color: #930162;
+    top: 18%;
+    max-width: 50%;
+  }
+
+  .lista {
+    max-width: fit-content;
+    font-size: 15px;
+    position: relative;
+    top: -140px;
+    left: -10px;
+  }
+
+  .lista li {
+    margin-bottom: 30px;
+  }
+
+  .lista i {
+    color: #930162;
+  }
+
+  #strong-personalizado {
+    color: #930162;
+    font-weight: bold;
+  }
+
+  .zona-azul {
+    position: relative;
+    top: -5px;
+    max-height: 95vh;
+    overflow: hidden;
+  }
+
+  .zona-azul h1 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: -1390px;
+    left: 7vw;
+    z-index: 1000;
+  }
+
+  .zona-azul p {
+    color: white;
+    font-size: 15px;
+    max-width: 35vh;
+    position: relative;
+    top: -1360px;
+    left: 7vw;
+    z-index: 1000;
+  }
+
+  #personalizada {
+    color: #01ff01;
+  }
+
+  .box {
+    position: relative;
+    top: -1300px;
+    max-width: 30vh;
+    left: 7vw;
+    z-index: 10000;
+    border: solid 2px white;
+    padding: 15px;
+  }
+
+  .box h2 {
+    color: white;
+    font-weight: 500;
+  }
+
+  #caller {
+    color: #00a9fe;
+    font-weight: 600;
+  }
+
+  #box-2 {
+    margin-top: 45px;
+  }
+
+  #disclaimer {
+    position: relative;
+    margin-top: 130px;
+    z-index: 10000;
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .forms {
+    height: 100vh;
+  }
+
+  .forms h1 {
+    font-size: 22px;
+    position: relative;
+    left: 5vw;
+    top: 10vw;
+    color: #ff5139;
+  }
+
+  #special {
+    margin-top: 5px;
+    font-size: 28px;
+    color: #930162;
+  }
+
+  .forms input {
+    position: relative;
+    left: 5%;
+    top: 65px;
+    width: 85%;
+    background-color: #e8e8e8;
+    height: 45px;
+    border: transparent;
+    border-radius: 30px;
+    margin-top: 15px;
+  }
+
+  .forms p {
+    position: relative;
+    top: 115px;
+    max-width: 40vh;
+    left: 10%;
+  }
+
+  #checkbox {
+    top: 130px;
+    left: -130px;
+  }
+
+  #options {
+    top: 195px;
+    left: 80px;
+  }
+
+  #options_two {
+    top: 240px;
+    left: 80px;
+  }
+
+  #inscrever {
+    background-color: #930162;
+    color: white;
+    position: relative;
+    top: 185px;
+    padding: 15px;
+    left: 20%;
+    font-weight: 800;
+    border: none;
+    transition: color 0.6s ease-in-out;
+    transition: background-color 0.6s ease-in-out;
+  }
+
+  #inscrever:hover {
+    background-color: white;
+    color: #930162;
+  }
+
+  .footer img {
+    position: relative;
+    top: 40px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .footer h1 {
+    position: relative;
+    color: white;
+    top: -290px;
+    left: 30px;
+  }
+
+  .footer p {
+    position: relative;
+    color: white;
+    top: -220px;
+    left: 30px;
+    font-size: 15px;
+    max-width: 370px;
+  }
+
+  #logo_footer {
+    position: relative;
+    top: -100px;
+    width: 60%;
+  }
+}
