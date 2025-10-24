@@ -267,6 +267,12 @@
     font-weight: bold;
   }
 
+  .programacao h1 {
+    position: absolute;
+    top: 450vw;
+    text-align: center;
+  }
+
   .zona-azul {
     position: relative;
     top: -5px;
@@ -409,15 +415,15 @@
   .footer h1 {
     position: relative;
     color: white;
-    top: -290px;
-    left: 30px;
+    top: -270px;
+    left: 3vw;
   }
 
   .footer p {
     position: relative;
     color: white;
     top: -220px;
-    left: 30px;
+    left: 3vw;
     font-size: 15px;
     max-width: 370px;
   }
