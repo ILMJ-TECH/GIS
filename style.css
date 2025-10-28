@@ -1605,9 +1605,15 @@
   }
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1170px) {
+@media screen and (min-width: 1024px) and (max-width: 1170px) {
   * {
     max-width: 100%;
+  }
+
+  #logo_header {
+    position: relative;
+    top: -550px;
+    width: 40%;
   }
 
   #header_mobile {
@@ -1622,22 +1628,24 @@
   #verde {
     position: relative;
     margin-top: -600px;
-    top: -50px;
+    top: 20px;
     left: 15px;
     font-size: 70px;
     color: #00fc01;
+    max-width: 300px;
   }
 
   #text {
     position: relative;
-    top: -50px;
+    top: 20px;
     left: 15px;
     color: white;
+    max-width: 300px;
   }
 
   .subtexto-inicial {
     position: relative;
-    top: -50px;
+    top: 20px;
     left: 15px;
     width: 500px;
     color: white;
@@ -1647,38 +1655,39 @@
   .button {
     position: relative;
     display: flex;
-    top: -35px;
+    top: 25px;
     left: 15px;
     gap: 15px;
     max-width: 80%;
   }
 
   #botaoVerde {
-    width: 250px;
-    padding: 10px;
+    width: 200px;
+    height: 60px;
     background-color: #00fc01;
     color: var(--azul_escuro);
-    font-size: 30px;
+    font-size: 10px;
   }
 
   #botaoNormal {
-    width: 250px;
+    width: 200px;
+    height: 60px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
-    font-size: 30px;
+    font-size: 15px;
   }
   #sessao_mobile {
     height: 80%;
     width: 40%;
     position: relative;
-    top: 35px;
+    top: 85px;
     left: 15px;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -450px;
+    top: -420px;
     left: 480px;
     font-size: 39px;
     width: 400px;
@@ -1846,7 +1855,7 @@
   }
 }
 
-@media screen and (min-width: 1170px) and (max-width: 1290px) and (orientation: landscape) {
+@media screen and (min-width: 1171px) and (max-width: 1290px) and (orientation: landscape) {
   * {
     max-width: 100%;
   }
@@ -1863,22 +1872,24 @@
   #verde {
     position: relative;
     margin-top: -600px;
-    top: -258px;
+    top: -230px;
     left: 150px;
     font-size: 70px;
     color: #00fc01;
+    max-width: 300px;
   }
 
   #text {
     position: relative;
-    top: -258px;
+    top: -230px;
     left: 150px;
     color: white;
+    max-width: 300px;
   }
 
   .subtexto-inicial {
     position: relative;
-    top: -228px;
+    top: -230px;
     left: 150px;
     width: 500px;
     color: white;
@@ -1888,26 +1899,26 @@
   .button {
     position: relative;
     display: flex;
-    top: -208px;
+    top: -225px;
     left: 150px;
     gap: 15px;
-    max-width: 50%;
+    max-width: 500px;
   }
 
   #botaoVerde {
-    width: 250px;
+    height: 60px;
     padding: 10px;
     background-color: #00fc01;
     color: var(--azul_escuro);
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #botaoNormal {
-    width: 250px;
+    height: 60px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
-    font-size: 30px;
+    font-size: 20px;
   }
   #sessao_mobile {
     height: 80%;
@@ -2094,31 +2105,39 @@
   #header_desktop {
     width: 100%;
   }
+  #logo_header {
+    position: relative;
+    top: -650px;
+    width: 40%;
+    left: 70px;
+  }
   #verde {
     color: #00fc01;
     position: relative;
     z-index: 10000;
     margin-top: -35vw;
-    top: -500px;
+    top: -200px;
     left: 100px;
+    max-width: 500px;
   }
   #text {
     color: white;
     position: relative;
-    top: -500px;
+    top: -200px;
     left: 100px;
+    max-width: 500px;
   }
   .subtexto-inicial {
     color: white;
     position: relative;
-    top: -500px;
+    top: -200px;
     left: 100px;
     width: 30vw;
   }
   .button {
     position: relative;
     display: flex;
-    top: -380px;
+    top: -180px;
     left: 7.6%;
     gap: 15px;
     max-width: 50%;
@@ -2143,13 +2162,13 @@
     height: 80%;
     width: 30%;
     position: relative;
-    top: -180px;
+    top: 80px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -650px;
+    top: -350px;
     left: 500px;
     width: 50%;
     font-size: 59px;
@@ -2159,9 +2178,9 @@
 
   li {
     position: relative;
-    top: -590px;
-    left: 650px;
-    max-width: 930px;
+    top: -300px;
+    left: 470px;
+    max-width: 500px;
     list-style-type: none;
   }
 
@@ -2190,7 +2209,7 @@
 
   .sessao_laranja {
     position: relative;
-    margin-top: -600px;
+    margin-top: -300px;
     width: 100%;
     height: 100%;
   }
@@ -2287,7 +2306,7 @@
     z-index: 10000;
     margin-top: 30px;
     left: 85px;
-    top: 110px;
+    top: 170px;
     font-size: 80px;
     color: white;
     max-width: 50%;
@@ -2299,7 +2318,7 @@
     width: 50%;
     z-index: 10000;
     margin-top: 2px;
-    top: 75px;
+    top: 125px;
     padding-top: 25px;
     left: 85px;
     font-size: 25px;
@@ -2309,10 +2328,10 @@
   .footer button {
     position: relative;
     z-index: 10000;
-    top: -158px;
+    top: -140px;
     padding: 15px;
     left: 78px;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
     background-color: var(--rosa);
   }
@@ -2320,12 +2339,12 @@
   #logo_footer_mobile {
     position: relative;
     width: 50%;
-    left: -325px;
-    margin-top: 180px;
+    left: -195px;
+    margin-top: 186px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
   * {
     max-width: 100%;
   }
@@ -2401,10 +2420,10 @@
   }
 
   #sessao_mobile {
-    height: 80%;
+    height: 8%;
     width: 30%;
     position: relative;
-    top: -30vw;
+    top: -28vw;
     left: 2%;
   }
 
@@ -2422,7 +2441,7 @@
     position: relative;
     top: -1090px;
     left: 650px;
-    max-width: 930px;
+    max-width: 530px;
     list-style-type: none;
   }
 
@@ -2569,7 +2588,7 @@
   .footer button {
     position: relative;
     z-index: 10000;
-    top: -158px;
+    top: -210px;
     padding: 15px;
     left: 78px;
     font-size: 25px;
