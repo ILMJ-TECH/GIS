@@ -965,7 +965,7 @@
   }
 }
 
-@media screen and (min-width: 640px) and (max-width: 734px) {
+@media screen and (min-width: 640px) and (max-width: 768px) {
   #header_desktop {
     display: none;
   }
@@ -1285,30 +1285,29 @@
   }
 }
 
-@media screen and (min-width: 735px) and (max-width: 1023px) {
-  #header_desktop img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  #header_mobile {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  #header_desktop {
     display: none;
   }
+  .header img {
+    height: 100%;
+    width: 100%;
+  }
+
   .diaEvento {
     display: flex;
     border-radius: 10px;
     background-color: var(--azul_escuro);
-    max-height: 98px;
+    max-height: 38px;
     width: 18%;
-    padding: 25px;
+    padding: 5px;
     position: relative;
-    top: -515px;
-    left: 1060px;
+    top: -825px;
+    left: 55px;
   }
 
   .diaEvento i {
-    font-size: 55px;
+    font-size: 15px;
     background-color: #00fc01;
     padding: 8px;
     padding-top: 12px;
@@ -1316,7 +1315,9 @@
   }
 
   .diaEvento h1 {
-    font-size: 45px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
     color: white;
   }
 
@@ -1324,24 +1325,24 @@
     display: flex;
     border-radius: 10px;
     background-color: var(--azul_escuro);
-    max-height: 108px;
+    max-height: 38px;
     width: 30%;
     padding: 5px;
     position: relative;
-    top: -685px;
-    left: 1580px;
+    top: -925px;
+    left: 55%;
   }
 
   .horaEvento i {
-    font-size: 55px;
+    font-size: 15px;
     background-color: #00fc01;
     padding: 8px;
-    padding-top: 25px;
+    padding-top: 12px;
     border-radius: 10px;
   }
 
   .horaEvento h1 {
-    font-size: 30px;
+    font-size: 14px;
     padding-top: 5px;
     padding-left: 5px;
     color: white;
@@ -1351,345 +1352,24 @@
     display: flex;
     border-radius: 10px;
     background-color: var(--azul_escuro);
-    max-height: 90px;
+    max-height: 38px;
     width: 30%;
     padding: 5px;
     position: relative;
-    top: -340px;
-    left: 1250px;
+    top: -720px;
+    left: 25%;
   }
 
   .localEvento i {
-    font-size: 35px;
-    background-color: #00fc01;
-    padding: 8px;
-    padding-top: 24px;
-    border-radius: 10px;
-  }
-
-  .localEvento h1 {
-    font-size: 30px;
-    padding-top: 5px;
-    padding-left: 5px;
-    color: white;
-  }
-
-  #logo_header {
-    position: relative;
-    top: -980px;
-    margin-left: 7%;
-    max-width: 100%;
-    max-height: 5%;
-    left: 0;
-  }
-
-  #verde {
-    color: #00fc01;
-    position: relative;
-    font-size: 60px;
-    top: -1000px;
-    left: 13%;
-    max-width: 80%;
-  }
-
-  #text {
-    color: white;
-    position: relative;
-    top: -1000px;
-    left: 13%;
-    font-size: 60px;
-    max-width: 90%;
-  }
-
-  .subtexto-inicial {
-    position: relative;
-    top: -950px;
-    left: 13%;
-    font-size: 25px;
-    max-width: 90%;
-    color: white;
-  }
-
-  .button {
-    position: relative;
-    display: flex;
-    top: -850px;
-    left: 100px;
-    gap: 15px;
-    max-width: 100%;
-  }
-
-  #botaoVerde {
-    width: 350px;
-    padding: 10px;
-    background-color: #00fc01;
-    color: var(--azul_escuro);
-    font-size: 40px;
-  }
-
-  #botaoNormal {
-    width: 350px;
-    background-color: transparent;
-    color: white;
-    border: solid 2px white;
-    font-size: 40px;
-  }
-  #sessao_mobile {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: -600px;
-    left: 2%;
-  }
-
-  .texto_sessao2 {
-    position: relative;
-    top: -1550px;
-    left: 890px;
-    font-size: 89px;
-    color: #960164;
-    font-family: "Frutiger";
-  }
-
-  li {
-    position: relative;
-    top: -1080px;
-    left: 890px;
-    list-style-type: none;
-    min-width: 100px;
-  }
-
-  #destaque {
-    color: var(--roxo);
-    position: relative;
-    left: -45px;
-  }
-
-  li p {
-    font-size: 32px;
-    position: relative;
-    top: -400px;
-    left: -45px;
-  }
-
-  li i {
-    font-size: 55px;
-    color: var(--rosa);
-    position: relative;
-    top: -340px;
-    left: -130px;
-  }
-
-  .sessao_laranja {
-    position: relative;
-    margin-top: -1300px;
-    width: 100%;
-    height: 100%;
-  }
-
-  #mobile {
-    display: none;
-  }
-
-  #sessao_azul_mobile {
-    display: none;
-  }
-
-  #sessao_azul_desktop {
-    position: relative;
-    border-radius: 20px;
-  }
-
-  #sessao_azul_desktop img {
-    width: 70%;
-  }
-
-  .formulario p {
-    color: #ff553e;
-    font-size: 50px;
-    position: relative;
-    left: 50%;
-    top: 20px;
-    width: 1500px;
-  }
-
-  .formulario h1 {
-    color: var(--roxo);
-    position: relative;
-    left: 50%;
-    font-size: 56px;
-  }
-
-  .formulario input {
-    display: flex;
-    position: relative;
-    margin-top: 20px;
-    left: 35%;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #e8e8e8;
-    border: none;
-    font-weight: 100;
-    font-size: 20px;
-    width: 1300px;
-  }
-
-  .formulario h2 {
-    font-size: 20px;
-    position: relative;
-    top: 15px;
-    left: 35%;
-  }
-
-  .formulario h3 {
-    font-size: 20px;
-    position: relative;
-    top: 21px;
-    left: 70%;
-  }
-
-  .formulario button {
-    position: relative;
-    top: 50px;
-    left: 85%;
-    padding: 10px;
-    font-size: 25px;
-    background-color: var(--roxo);
-    color: white;
-    border: none;
-  }
-  #footer_mobile {
-    display: none;
-  }
-
-  #footer_desktop {
-    position: relative;
-    margin-top: 150px;
-    margin-bottom: -440px;
-  }
-
-  .footer h1 {
-    position: relative;
-    z-index: 10000;
-    margin-top: -420px;
-    left: 85px;
-    font-size: 80px;
-    color: white;
-  }
-
-  .footer p {
-    position: relative;
-    font-family: "Frutiger";
-    z-index: 10000;
-    margin-top: 2px;
-    padding-top: 25px;
-    left: 85px;
-    font-size: 25px;
-    color: white;
-  }
-
-  .footer button {
-    position: relative;
-    z-index: 10000;
-    top: 80px;
-    padding: 15px;
-    left: 78px;
-    font-size: 25px;
-    color: white;
-    background-color: var(--rosa);
-  }
-
-  #logo_footer_mobile {
-    position: relative;
-    width: 90%;
-    left: 5%;
-    margin-top: 170px;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-  #header_desktop img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  #header_mobile {
-    display: none;
-  }
-  .diaEvento {
-    display: flex;
-    border-radius: 10px;
-    background-color: var(--azul_escuro);
-    max-height: 98px;
-    width: 18%;
-    padding: 25px;
-    position: relative;
-    top: -515px;
-    left: 1060px;
-  }
-
-  .diaEvento i {
-    font-size: 55px;
+    font-size: 15px;
     background-color: #00fc01;
     padding: 8px;
     padding-top: 12px;
     border-radius: 10px;
   }
 
-  .diaEvento h1 {
-    font-size: 45px;
-    color: white;
-  }
-
-  .horaEvento {
-    display: flex;
-    border-radius: 10px;
-    background-color: var(--azul_escuro);
-    max-height: 108px;
-    width: 30%;
-    padding: 5px;
-    position: relative;
-    top: -685px;
-    left: 1580px;
-  }
-
-  .horaEvento i {
-    font-size: 55px;
-    background-color: #00fc01;
-    padding: 8px;
-    padding-top: 25px;
-    border-radius: 10px;
-  }
-
-  .horaEvento h1 {
-    font-size: 30px;
-    padding-top: 5px;
-    padding-left: 5px;
-    color: white;
-  }
-
-  .localEvento {
-    display: flex;
-    border-radius: 10px;
-    background-color: var(--azul_escuro);
-    max-height: 90px;
-    width: 30%;
-    padding: 5px;
-    position: relative;
-    top: -360px;
-    left: 1250px;
-  }
-
-  .localEvento i {
-    font-size: 35px;
-    background-color: #00fc01;
-    padding: 8px;
-    padding-top: 24px;
-    border-radius: 10px;
-  }
-
   .localEvento h1 {
-    font-size: 30px;
+    font-size: 13px;
     padding-top: 5px;
     padding-left: 5px;
     color: white;
@@ -1697,7 +1377,7 @@
 
   #logo_header {
     position: relative;
-    top: -1000px;
+    top: -760px;
     margin-left: 7%;
     max-width: 70%;
     max-height: 5%;
@@ -1707,192 +1387,186 @@
   #verde {
     color: #00fc01;
     position: relative;
-    font-size: 60px;
-    top: -990px;
-    left: 10%;
-    max-width: 80%;
+    font-size: 48px;
+    top: -749px;
+    left: 11%;
+    max-width: 60%;
   }
 
   #text {
     color: white;
     position: relative;
-    top: -990px;
-    left: 10%;
-    font-size: 60px;
-    max-width: 90%;
+    top: -749px;
+    left: 11%;
+    font-size: 35px;
+    max-width: 60%;
   }
 
   .subtexto-inicial {
     position: relative;
-    top: -900px;
-    left: 10%;
-    font-size: 25px;
-    max-width: 90%;
+    top: -749px;
+    left: 11%;
+    font-size: 18px;
+    max-width: 80%;
     color: white;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: -780px;
-    left: 10%;
+    top: -649px;
+    left: 110px;
     gap: 15px;
-    max-width: 100%;
+    max-width: 80%;
   }
 
   #botaoVerde {
-    width: 420px;
+    width: 180px;
     padding: 10px;
     background-color: #00fc01;
     color: var(--azul_escuro);
-    font-size: 40px;
   }
 
   #botaoNormal {
-    width: 420px;
+    width: 180px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
-    font-size: 40px;
   }
 
   #sessao_mobile {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 40%;
     position: relative;
-    top: -580px;
+    top: -400px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -1450px;
-    left: 850px;
-    font-size: 69px;
+    top: -650px;
+    left: 42%;
+    font-size: 39px;
+    max-width: 55%;
     color: #960164;
     font-family: "Frutiger";
   }
 
   li {
+    max-width: 600px;
     position: relative;
-    top: -1420px;
-    left: 930px;
-    max-width: 930px;
+    top: -280px;
+    left: 30px;
     list-style-type: none;
   }
 
   #destaque {
     color: var(--roxo);
     position: relative;
-    left: -23px;
+    left: 23px;
   }
 
   li p {
-    font-size: 30px;
     position: relative;
-    top: -40px;
-    left: -20px;
-    max-width: 930px;
+    top: -200px;
+    max-width: 500px;
   }
 
   li i {
-    font-size: 50px;
     color: var(--rosa);
     position: relative;
-    top: 14px;
-    max-width: 130px;
-    left: -100px;
+    top: -178px;
+  }
+  #desktop {
+    display: none;
+  }
+  .sessao_laranja img {
+    height: 160%;
+    width: 100%;
+    position: relative;
+    margin-top: -300px;
+    z-index: 0;
   }
 
-  .sessao_laranja {
-    position: relative;
-    margin-top: -1300px;
+  .sessao_azul img {
     width: 100%;
     height: 100%;
-  }
-
-  #mobile {
-    display: none;
-  }
-
-  #sessao_azul_mobile {
-    display: none;
-  }
-
-  #sessao_azul_desktop {
     position: relative;
-    border-radius: 20px;
+    top: -7px;
+  }
+  #sessao_azul_desktop {
+    display: none;
   }
   .formulario p {
     color: #ff553e;
-    font-size: 50px;
     position: relative;
-    left: 38%;
-    top: 20px;
-    width: 1500px;
+    left: 5%;
+    font-size: 37px;
+    max-width: fit-content;
   }
 
   .formulario h1 {
     color: var(--roxo);
     position: relative;
-    left: 38%;
-    font-size: 56px;
+    left: 5%;
+    font-size: 37px;
+    max-width: fit-content;
   }
 
   .formulario input {
     display: flex;
     position: relative;
-    margin-top: 20px;
-    left: 25%;
+    margin-top: 15px;
+    left: 5%;
+    width: 660px;
     border-radius: 10px;
     padding: 10px;
     background-color: #e8e8e8;
     border: none;
     font-weight: 100;
-    font-size: 20px;
-    width: 1300px;
   }
 
   .formulario h2 {
     font-size: 20px;
     position: relative;
     top: 15px;
-    left: 25%;
+    left: 5%;
+    width: 90%;
   }
 
   .formulario h3 {
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     top: 21px;
-    left: 70%;
+    left: 30%;
+    width: 307px;
   }
 
   .formulario button {
     position: relative;
     top: 50px;
-    left: 65%;
+    left: 30%;
     padding: 10px;
-    font-size: 25px;
     background-color: var(--roxo);
     color: white;
     border: none;
   }
-  #footer_mobile {
-    display: none;
-  }
 
-  #footer_desktop {
+  #footer_mobile {
+    width: 100%;
+    top: 10%;
     position: relative;
-    margin-top: 150px;
-    margin-bottom: -440px;
+    margin-top: 80px;
+    margin-bottom: -9px;
   }
 
   .footer h1 {
     position: relative;
     z-index: 10000;
-    margin-top: -420px;
-    left: 85px;
-    font-size: 80px;
+    width: 250px;
+    margin-top: -550px;
+    left: 25px;
+    font-size: 30px;
     color: white;
   }
 
@@ -1901,197 +1575,107 @@
     font-family: "Frutiger";
     z-index: 10000;
     margin-top: 2px;
-    padding-top: 25px;
-    left: 85px;
-    font-size: 25px;
+    width: 80%;
+    left: 25px;
+    font-size: 15px;
     color: white;
+    padding-top: 15px;
   }
 
   .footer button {
     position: relative;
     z-index: 10000;
-    top: 80px;
-    padding: 15px;
-    left: 78px;
-    font-size: 25px;
+    margin-top: 70px;
+    padding: 7px;
+    left: 25px;
+    font-size: 14px;
     color: white;
     background-color: var(--rosa);
   }
 
   #logo_footer_mobile {
+    width: 70%;
     position: relative;
-    width: 90%;
-    left: 5%;
-    margin-top: 170px;
+    top: 80px;
+    left: 1%;
+    z-index: 1000;
+  }
+  #footer_desktop {
+    display: none;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  * {
-    max-width: 100%;
-  }
-  #header_desktop img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
+@media screen and (min-width: 1024px) and (max-width: 1290px) and (orientation: landscape) {
   #header_mobile {
     display: none;
   }
-  .diaEvento {
-    display: flex;
-    border-radius: 10px;
-    background-color: var(--azul_escuro);
-    max-height: 98px;
-    width: 18%;
-    padding: 25px;
-    position: relative;
-    top: -515px;
-    left: 1060px;
-  }
 
-  .diaEvento i {
-    font-size: 55px;
-    background-color: #00fc01;
-    padding: 8px;
-    padding-top: 12px;
-    border-radius: 10px;
-  }
-
-  .diaEvento h1 {
-    font-size: 45px;
-    color: white;
-  }
-
-  .horaEvento {
-    display: flex;
-    border-radius: 10px;
-    background-color: var(--azul_escuro);
-    max-height: 108px;
-    width: 30%;
-    padding: 5px;
-    position: relative;
-    top: -685px;
-    left: 1580px;
-  }
-
-  .horaEvento i {
-    font-size: 55px;
-    background-color: #00fc01;
-    padding: 8px;
-    padding-top: 25px;
-    border-radius: 10px;
-  }
-
-  .horaEvento h1 {
-    font-size: 30px;
-    padding-top: 5px;
-    padding-left: 5px;
-    color: white;
-  }
-
-  .localEvento {
-    display: flex;
-    border-radius: 10px;
-    background-color: var(--azul_escuro);
-    max-height: 90px;
-    width: 30%;
-    padding: 5px;
-    position: relative;
-    top: -360px;
-    left: 1250px;
-  }
-
-  .localEvento i {
-    font-size: 35px;
-    background-color: #00fc01;
-    padding: 8px;
-    padding-top: 24px;
-    border-radius: 10px;
-  }
-
-  .localEvento h1 {
-    font-size: 30px;
-    padding-top: 5px;
-    padding-left: 5px;
-    color: white;
-  }
-
-  #logo_header {
-    position: relative;
-    top: -900px;
-    margin-left: 7%;
-    max-width: 30%;
-    max-height: 5%;
-    left: 0;
+  #header_desktop img {
+    width: 100%;
+    height: 100%;
   }
 
   #verde {
-    color: #00fc01;
     position: relative;
-    font-size: 60px;
-    top: -890px;
-    left: 8%;
-    max-width: 50%;
+    margin-top: -600px;
+    top: -528px;
+    left: 150px;
+    font-size: 70px;
+    color: #00fc01;
   }
 
   #text {
-    color: white;
     position: relative;
-    top: -890px;
-    left: 8%;
-    font-size: 60px;
-    max-width: 50%;
+    top: -528px;
+    left: 150px;
+    color: white;
   }
 
   .subtexto-inicial {
     position: relative;
-    top: -830px;
-    left: 8%;
-    font-size: 25px;
-    max-width: 40%;
+    top: -480px;
+    left: 150px;
+    width: 600px;
     color: white;
+    font-size: 25px;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: -760px;
-    left: 7.6%;
+    top: -360px;
+    left: 150px;
     gap: 15px;
     max-width: 50%;
   }
 
   #botaoVerde {
-    width: 420px;
+    min-width: 330px;
     padding: 10px;
     background-color: #00fc01;
     color: var(--azul_escuro);
-    font-size: 40px;
+    font-size: 30px;
   }
 
   #botaoNormal {
-    width: 420px;
+    min-width: 330px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
-    font-size: 40px;
+    font-size: 30px;
   }
-
   #sessao_mobile {
     height: 80%;
-    width: 30%;
+    width: 60%;
     position: relative;
-    top: -580px;
-    left: 2%;
+    top: -180px;
+    left: 150px;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -1200px;
-    left: 640px;
-    width: 40%;
+    top: -900px;
+    left: 840px;
     font-size: 69px;
     color: #960164;
     font-family: "Frutiger";
@@ -2099,9 +1683,9 @@
 
   li {
     position: relative;
-    top: -1120px;
-    left: 710px;
-    max-width: 930px;
+    top: -820px;
+    left: 910px;
+    max-width: 730px;
     list-style-type: none;
   }
 
@@ -2130,13 +1714,13 @@
 
   .sessao_laranja {
     position: relative;
-    margin-top: -1100px;
+    margin-top: -700px;
     width: 100%;
     height: 100%;
   }
 
   .sessao_laranja img {
-    max-width: 100%;
+    min-width: 100%;
   }
 
   #mobile {
@@ -2149,7 +1733,7 @@
 
   #sessao_azul_desktop {
     position: relative;
-    width: 100%;
+    min-width: 100%;
     top: 100%;
   }
 
@@ -2224,7 +1808,7 @@
   .footer h1 {
     position: relative;
     z-index: 10000;
-    margin-top: -420px;
+    margin-top: -320px;
     left: 85px;
     font-size: 80px;
     color: white;
@@ -2246,7 +1830,505 @@
   .footer button {
     position: relative;
     z-index: 10000;
-    top: -250px;
+    top: -180px;
+    padding: 15px;
+    left: 78px;
+    font-size: 25px;
+    color: white;
+    background-color: var(--rosa);
+  }
+
+  #logo_footer_mobile {
+    position: relative;
+    width: 50%;
+    left: -325px;
+    margin-top: 180px;
+  }
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1440px) {
+  #header_mobile {
+    display: none;
+  }
+  #header_desktop {
+    width: 100%;
+  }
+  #verde {
+    color: #00fc01;
+    position: relative;
+    z-index: 10000;
+    margin-top: -35vw;
+    top: -500px;
+    left: 100px;
+  }
+  #text {
+    color: white;
+    position: relative;
+    top: -500px;
+    left: 100px;
+  }
+  .subtexto-inicial {
+    color: white;
+    position: relative;
+    top: -500px;
+    left: 100px;
+    width: 30vw;
+  }
+  .button {
+    position: relative;
+    display: flex;
+    top: -380px;
+    left: 7.6%;
+    gap: 15px;
+    max-width: 50%;
+  }
+
+  #botaoVerde {
+    width: 300px;
+    padding: 10px;
+    background-color: #00fc01;
+    color: var(--azul_escuro);
+    font-size: 20px;
+  }
+
+  #botaoNormal {
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    font-size: 20px;
+  }
+  #sessao_mobile {
+    height: 80%;
+    width: 30%;
+    position: relative;
+    top: -180px;
+    left: 2%;
+  }
+
+  .texto_sessao2 {
+    position: relative;
+    top: -650px;
+    left: 500px;
+    width: 50%;
+    font-size: 59px;
+    color: #960164;
+    font-family: "Frutiger";
+  }
+
+  li {
+    position: relative;
+    top: -590px;
+    left: 650px;
+    max-width: 930px;
+    list-style-type: none;
+  }
+
+  #destaque {
+    color: var(--roxo);
+    position: relative;
+    left: -23px;
+  }
+
+  li p {
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+    left: -20px;
+    max-width: 930px;
+  }
+
+  li i {
+    font-size: 30px;
+    color: var(--rosa);
+    position: relative;
+    top: 3px;
+    max-width: 130px;
+    left: -70px;
+  }
+
+  .sessao_laranja {
+    position: relative;
+    margin-top: -600px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sessao_laranja img {
+    max-width: 100%;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #sessao_azul_mobile {
+    display: none;
+  }
+
+  #sessao_azul_desktop {
+    position: relative;
+    max-width: 100%;
+    top: 100%;
+  }
+
+  .formulario p {
+    color: #ff553e;
+    font-size: 50px;
+    position: relative;
+    left: 8%;
+    top: 20px;
+    width: fit-content;
+  }
+
+  .formulario h1 {
+    color: var(--roxo);
+    position: relative;
+    left: 8%;
+    font-size: 56px;
+    width: fit-content;
+  }
+
+  .formulario input {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    left: 8%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border: none;
+    font-weight: 100;
+    font-size: 20px;
+    width: 930px;
+  }
+
+  .formulario h2 {
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    left: 18%;
+    width: fit-content;
+  }
+
+  .formulario h3 {
+    font-size: 20px;
+    position: relative;
+    top: 21px;
+    left: 35%;
+    width: fit-content;
+  }
+
+  .formulario button {
+    position: relative;
+    top: 59px;
+    left: 32%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: var(--roxo);
+    color: white;
+    border: none;
+    width: fit-content;
+  }
+  #footer_mobile {
+    display: none;
+  }
+
+  #footer_desktop {
+    width: 100%;
+    position: relative;
+    margin-top: 140px;
+    margin-bottom: -800px;
+  }
+
+  .footer h1 {
+    position: relative;
+    z-index: 10000;
+    margin-top: 30px;
+    left: 85px;
+    top: 110px;
+    font-size: 80px;
+    color: white;
+    max-width: 50%;
+  }
+
+  .footer p {
+    position: relative;
+    font-family: "Frutiger";
+    width: 50%;
+    z-index: 10000;
+    margin-top: 2px;
+    top: 75px;
+    padding-top: 25px;
+    left: 85px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .footer button {
+    position: relative;
+    z-index: 10000;
+    top: -158px;
+    padding: 15px;
+    left: 78px;
+    font-size: 25px;
+    color: white;
+    background-color: var(--rosa);
+  }
+
+  #logo_footer_mobile {
+    position: relative;
+    width: 50%;
+    left: -325px;
+    margin-top: 180px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  * {
+    max-width: 100%;
+  }
+  #header_desktop img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #header_mobile {
+    display: none;
+  }
+
+  #logo_header {
+    position: relative;
+    top: -700px;
+    margin-left: 7%;
+    max-width: 30%;
+    max-height: 5%;
+    left: 0;
+  }
+
+  #verde {
+    color: #00fc01;
+    position: relative;
+    font-size: 60px;
+    top: -690px;
+    left: 8%;
+    max-width: 50%;
+  }
+
+  #text {
+    color: white;
+    position: relative;
+    top: -690px;
+    left: 8%;
+    font-size: 60px;
+    max-width: 50%;
+  }
+
+  .subtexto-inicial {
+    position: relative;
+    top: -680px;
+    left: 8%;
+    font-size: 25px;
+    max-width: 40%;
+    color: white;
+  }
+
+  .button {
+    position: relative;
+    display: flex;
+    top: -680px;
+    left: 7.6%;
+    gap: 15px;
+    max-width: 50%;
+  }
+
+  #botaoVerde {
+    width: 300px;
+    padding: 10px;
+    background-color: #00fc01;
+    color: var(--azul_escuro);
+    font-size: 20px;
+  }
+
+  #botaoNormal {
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    font-size: 20px;
+  }
+
+  #sessao_mobile {
+    height: 80%;
+    width: 30%;
+    position: relative;
+    top: -30vw;
+    left: 2%;
+  }
+
+  .texto_sessao2 {
+    position: relative;
+    top: -1100px;
+    left: 600px;
+    width: 50%;
+    font-size: 69px;
+    color: #960164;
+    font-family: "Frutiger";
+  }
+
+  li {
+    position: relative;
+    top: -1090px;
+    left: 650px;
+    max-width: 930px;
+    list-style-type: none;
+  }
+
+  #destaque {
+    color: var(--roxo);
+    position: relative;
+    left: -23px;
+  }
+
+  li p {
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+    left: -20px;
+    max-width: 930px;
+  }
+
+  li i {
+    font-size: 30px;
+    color: var(--rosa);
+    position: relative;
+    top: 3px;
+    max-width: 130px;
+    left: -70px;
+  }
+
+  .sessao_laranja {
+    position: relative;
+    margin-top: -1100px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sessao_laranja img {
+    max-width: 100%;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #sessao_azul_mobile {
+    display: none;
+  }
+
+  #sessao_azul_desktop {
+    position: relative;
+    width: 100%;
+    top: 100%;
+  }
+
+  .formulario p {
+    color: #ff553e;
+    font-size: 50px;
+    position: relative;
+    left: 8%;
+    top: 20px;
+    width: fit-content;
+  }
+
+  .formulario h1 {
+    color: var(--roxo);
+    position: relative;
+    left: 8%;
+    font-size: 56px;
+    width: fit-content;
+  }
+
+  .formulario input {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    left: 8%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border: none;
+    font-weight: 100;
+    font-size: 20px;
+    width: 1230px;
+  }
+
+  .formulario h2 {
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    left: 18%;
+    width: fit-content;
+  }
+
+  .formulario h3 {
+    font-size: 20px;
+    position: relative;
+    top: 21px;
+    left: 35%;
+    width: fit-content;
+  }
+
+  .formulario button {
+    position: relative;
+    top: 59px;
+    left: 32%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: var(--roxo);
+    color: white;
+    border: none;
+    width: fit-content;
+  }
+  #footer_mobile {
+    display: none;
+  }
+
+  #footer_desktop {
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: -800px;
+  }
+
+  .footer h1 {
+    position: relative;
+    z-index: 10000;
+    margin-top: 30px;
+    left: 85px;
+    top: 85px;
+    font-size: 80px;
+    color: white;
+    max-width: 50%;
+  }
+
+  .footer p {
+    position: relative;
+    font-family: "Frutiger";
+    width: 50%;
+    z-index: 10000;
+    margin-top: 2px;
+    top: 75px;
+    padding-top: 25px;
+    left: 85px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .footer button {
+    position: relative;
+    z-index: 10000;
+    top: -158px;
     padding: 15px;
     left: 78px;
     font-size: 25px;
