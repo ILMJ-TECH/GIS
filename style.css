@@ -246,6 +246,7 @@
     color: var(--roxo);
     position: relative;
     left: 5%;
+    font-family: "Frutiger";
     font-size: 26px;
     max-width: 280px;
   }
@@ -558,6 +559,7 @@
   .formulario h1 {
     color: var(--roxo);
     position: relative;
+    font-family: "Frutiger";
     left: 13%;
     font-size: 26px;
     max-width: 307px;
@@ -862,6 +864,7 @@
 
   .formulario p {
     color: #ff553e;
+    font-family: "Frutiger";
     position: relative;
     left: 6%;
     width: 450px;
@@ -1193,6 +1196,7 @@
     position: relative;
     left: 3%;
     font-size: 37px;
+    font-family: "Frutiger";
     width: 600px;
     text-align: center;
   }
@@ -1513,6 +1517,7 @@
     position: relative;
     left: 8%;
     font-size: 37px;
+    font-family: "Frutiger";
     max-width: 800px;
     text-align: center;
   }
@@ -1756,7 +1761,7 @@
   }
 
   .formulario p {
-    color: #ff553e;
+    color: var(--roxo);
     font-size: 50px;
     position: relative;
     left: 17%;
@@ -1765,12 +1770,13 @@
   }
 
   .formulario h1 {
-    color: var(--roxo);
+    color: #ff553e;
     position: relative;
     left: 12%;
     margin-top: 15px;
-    font-size: 56px;
+    font-size: 46px;
     width: 900px;
+    font-family: "Frutiger";
     text-align: center;
   }
 
@@ -2008,7 +2014,8 @@
   }
 
   .formulario p {
-    color: #ff553e;
+    color: var(--roxo);
+
     font-size: 50px;
     position: relative;
     left: 18%;
@@ -2017,12 +2024,13 @@
   }
 
   .formulario h1 {
-    color: var(--roxo);
+    color: #ff553e;
     position: relative;
     left: 10%;
     margin-top: 30px;
     text-align: center;
     font-size: 56px;
+    font-family: "Frutiger";
     width: 1000px;
   }
 
@@ -2262,9 +2270,10 @@
     position: relative;
     left: 15%;
     margin-top: 15px;
-    font-size: 56px;
+    font-size: 36px;
     width: 900px;
     text-align: center;
+    font-family: "Frutiger";
   }
 
   .formulario input {
@@ -2529,7 +2538,7 @@
     color: var(--roxo);
     font-size: 50px;
     position: relative;
-    left: 30%;
+    left: 28%;
     top: 20px;
     width: fit-content;
   }
@@ -2537,18 +2546,19 @@
   .formulario h1 {
     color: #ff553e;
     position: relative;
-    left: 20%;
+    left: 18%;
     text-align: center;
     margin-top:25px ;
     font-size: 45px;
     max-width: 1250px;
+    font-family: "Frutiger";
   }
 
   .formulario input {
     display: flex;
     position: relative;
     margin-top: 20px;
-    left: 25%;
+    left: 23%;
     border-radius: 10px;
     padding: 10px;
     background-color: #e8e8e8;
@@ -2562,7 +2572,7 @@
     font-size: 20px;
     position: relative;
     top: 15px;
-    left: 28%;
+    left: 23%;
     width: fit-content;
   }
 
@@ -2570,14 +2580,14 @@
     font-size: 20px;
     position: relative;
     top: 21px;
-    left: 35%;
+    left: 38%;
     width: fit-content;
   }
 
   .formulario button {
     position: relative;
     top: 59px;
-    left: 37%;
+    left: 35%;
     padding: 10px;
     font-size: 25px;
     background-color: var(--roxo);
