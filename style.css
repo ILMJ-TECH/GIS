@@ -2513,7 +2513,7 @@
   .formulario h1 {
     color: var(--roxo);
     position: relative;
-    left: 28%;
+    left: 35%;
     font-size: 56px;
     width: fit-content;
   }
@@ -2529,7 +2529,7 @@
     border: none;
     font-weight: 100;
     font-size: 20px;
-    width: 1230px;
+    width: 1030px;
   }
 
   .formulario h2 {
