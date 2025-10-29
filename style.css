@@ -1479,7 +1479,7 @@
   }
 
   li {
-    max-width: 400px;
+    max-width: 300px;
     position: relative;
     top: -420px;
     left: 420px;
@@ -1534,10 +1534,11 @@
   .formulario h1 {
     color: #ff553e;
     position: relative;
-    left: 8%;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 25px;
     font-family: "Frutiger";
-    max-width: 800px;
+    max-width: 600px;
     text-align: center;
   }
 
