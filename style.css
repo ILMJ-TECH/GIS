@@ -2105,7 +2105,7 @@
   }
 }
 
-@media screen and (min-width: 1290px) and (max-width: 1439px) {
+@media screen and (min-width: 1291px) and (max-width: 1430px) {
   #header_mobile {
     display: none;
   }
@@ -2124,28 +2124,28 @@
     position: relative;
     z-index: 10000;
     margin-top: -35vw;
-    top: -200px;
+    top: -180px;
     left: 100px;
     max-width: 500px;
   }
   #text {
     color: white;
     position: relative;
-    top: -200px;
+    top: -180px;
     left: 100px;
     max-width: 500px;
   }
   .subtexto-inicial {
     color: white;
     position: relative;
-    top: -200px;
+    top: -180px;
     left: 100px;
     width: 30vw;
   }
   .button {
     position: relative;
     display: flex;
-    top: -180px;
+    top: -100px;
     left: 7.6%;
     gap: 15px;
     max-width: 50%;
@@ -2170,7 +2170,7 @@
     height: 80%;
     width: 30%;
     position: relative;
-    top: 80px;
+    top: 170px;
     left: 2%;
   }
 
@@ -2352,7 +2352,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1431px) {
   * {
     max-width: 100%;
   }
@@ -2405,7 +2405,7 @@
   .button {
     position: relative;
     display: flex;
-    top: -680px;
+    top: -670px;
     left: 7.6%;
     gap: 15px;
     max-width: 50%;
