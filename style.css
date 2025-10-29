@@ -1516,7 +1516,7 @@
     color: #ff553e;
     position: relative;
     left: 8%;
-    font-size: 37px;
+    font-size: 25px;
     font-family: "Frutiger";
     max-width: 800px;
     text-align: center;
@@ -1637,16 +1637,16 @@
   #verde {
     position: relative;
     margin-top: -600px;
-    top: 20px;
+    top: 80px;
     left: 15px;
-    font-size: 70px;
+    font-size: 30px;
     color: #00fc01;
     max-width: 300px;
   }
 
   #text {
     position: relative;
-    top: 20px;
+    top: 80px;
     left: 15px;
     color: white;
     max-width: 300px;
@@ -1654,17 +1654,19 @@
 
   .subtexto-inicial {
     position: relative;
-    top: 20px;
-    left: 15px;
-    width: 500px;
+    top: 90px;
+    left: 1.5%;
+    font-size: 25px;
+    max-width: 40%;
     color: white;
-    font-size: 15px;
+        font-family: "Frutiger";
+    font-weight: lighter;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: 25px;
+    top: 95px;
     left: 15px;
     gap: 15px;
     max-width: 80%;
@@ -1672,7 +1674,7 @@
 
   #botaoVerde {
     width: 200px;
-    height: 60px;
+    height: 50px;
     background-color: #00fc01;
     color: var(--azul_escuro);
     font-size: 10px;
@@ -1680,7 +1682,7 @@
 
   #botaoNormal {
     width: 200px;
-    height: 60px;
+    height: 50px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
@@ -1690,13 +1692,13 @@
     height: 80%;
     width: 40%;
     position: relative;
-    top: 85px;
+    top: 125px;
     left: 15px;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -420px;
+    top: -390px;
     left: 480px;
     font-size: 39px;
     width: 400px;
@@ -1774,7 +1776,7 @@
     position: relative;
     left: 12%;
     margin-top: 15px;
-    font-size: 46px;
+    font-size: 20px;
     width: 900px;
     font-family: "Frutiger";
     text-align: center;
@@ -1908,11 +1910,13 @@
 
   .subtexto-inicial {
     position: relative;
-    top: -30px;
+    top: -50px;
     left: 150px;
-    width: 500px;
-    color: white;
     font-size: 25px;
+    max-width: 40%;
+    color: white;
+        font-family: "Frutiger";
+    font-weight: lighter;
   }
 
   .button {
@@ -2029,7 +2033,7 @@
     left: 10%;
     margin-top: 30px;
     text-align: center;
-    font-size: 56px;
+    font-size: 26px;
     font-family: "Frutiger";
     width: 1000px;
   }
@@ -2152,11 +2156,14 @@
     max-width: 500px;
   }
   .subtexto-inicial {
-    color: white;
     position: relative;
-    top: -180px;
-    left: 100px;
-    width: 30vw;
+    top: -160px;
+    left: 7%;
+    font-size: 25px;
+    max-width: 40%;
+    color: white;
+        font-family: "Frutiger";
+    font-weight: lighter;
   }
   .button {
     position: relative;
@@ -2270,7 +2277,7 @@
     position: relative;
     left: 15%;
     margin-top: 15px;
-    font-size: 36px;
+    font-size: 26px;
     width: 900px;
     text-align: center;
     font-family: "Frutiger";
@@ -2410,6 +2417,7 @@
     left: 8%;
     font-size: 60px;
     max-width: 50%;
+
   }
 
   .subtexto-inicial {
@@ -2419,6 +2427,8 @@
     font-size: 25px;
     max-width: 40%;
     color: white;
+    font-family: "Frutiger";
+    font-weight: lighter;
   }
 
   .button {
@@ -2549,7 +2559,7 @@
     left: 18%;
     text-align: center;
     margin-top:25px ;
-    font-size: 45px;
+    font-size: 30px;
     max-width: 1250px;
     font-family: "Frutiger";
   }
