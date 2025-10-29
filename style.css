@@ -146,7 +146,7 @@
 
   .subtexto-inicial {
     position: relative;
-    top: -78px;
+    top: -85px;
     left: 9%;
     font-size: 8px;
     max-width: 170px;
@@ -166,7 +166,7 @@
     position: relative;
     left: 190px;
     top: -30px;
-    width: 90px;
+    width: 120px;
     padding: 5px;
     background-color: #00fc01;
     color: var(--azul_escuro);
@@ -175,11 +175,12 @@
 
   #botaoNormal {
     position: relative;
-    left: 86px;
+    left: 55px;
     top: 16px;
-    width: 90px;
+    width: 120px;
     background-color: transparent;
     color: white;
+    font-size: 10px;
     border: solid 2px white;
   }
 
@@ -187,13 +188,13 @@
     height: 100%;
     width: 60%;
     position: relative;
-    top: -109px;
+    top: -89px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -350px;
+    top: -270px;
     left: 61%;
     font-size: 19px;
     max-width: 38%;
@@ -204,7 +205,7 @@
   li {
     max-width: 250px;
     position: relative;
-    top: -270px;
+    top: -220px;
     left: 30px;
     list-style-type: none;
   }
@@ -225,7 +226,7 @@
     height: 110%;
     width: 100%;
     position: relative;
-    margin-top: -260px;
+    margin-top: -210px;
     z-index: 0;
   }
 
@@ -245,24 +246,28 @@
   .formulario p {
     color: #ff553e;
     position: relative;
-    left: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 280px;
   }
 
   .formulario h1 {
     color: var(--roxo);
     position: relative;
-    left: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: "Frutiger";
-    font-size: 26px;
+    font-size: 12px;
     max-width: 280px;
+    text-align: center;
   }
 
   .formulario input {
     display: flex;
     position: relative;
     margin-top: 15px;
-    left: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 257px;
     border-radius: 10px;
     padding: 10px;
@@ -275,8 +280,10 @@
     font-size: 10px;
     position: relative;
     top: 15px;
-    left: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 300px;
+    text-align: center;
   }
 
   .formulario h3 {
@@ -1687,7 +1694,7 @@
     height: 80%;
     width: 40%;
     position: relative;
-    top: -210px;
+    top: -170px;
     left: 15px;
   }
 
