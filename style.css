@@ -2149,6 +2149,7 @@
     left: 6.6%;
     gap: 15px;
     max-width: 50%;
+    cursor: pointer;
   }
 
   #botaoVerde {
@@ -2307,6 +2308,7 @@
     border: none;
     width: fit-content;
     transition: all .6s ease-in-out;
+    cursor: pointer;
   }
 .formulario button:hover{
   background-color: white;
@@ -2416,6 +2418,7 @@
   #botaoVerde:hover{
     background-color: transparent;
     color: #00fc01;
+    cursor: pointer;
   }
 
   #botaoNormal {
@@ -2425,6 +2428,7 @@
     border: solid 2px white;
     font-size: 20px;
     transition: all .6s ease-in-out;
+    cursor: pointer;
   }
 
   #botaoNormal:hover{
@@ -2571,6 +2575,7 @@
     border: none;
     width: fit-content;
     transition: all .6s ease;
+    cursor: pointer;
   }
 
   .formulario button:hover{
