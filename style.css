@@ -494,9 +494,9 @@
 
   #botaoVerde {
     position: relative;
-    left: 250px;
+    left: 240px;
     top: -30px;
-    width: 130px;
+    width: 118px;
     padding: 5px;
     background-color: #00fc01;
     color: var(--azul_escuro);
@@ -507,7 +507,7 @@
     position: relative;
     left: 105px;
     top: 16px;
-    width: 130px;
+    width: 118px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
@@ -571,7 +571,7 @@
   }
 
   .formulario p {
-    color: #ff553e;
+    color: var(--roxo);
     position: relative;
      left: 16%;
 font-size: 18px;
@@ -579,7 +579,7 @@ font-size: 18px;
   }
 
   .formulario h1 {
-    color: var(--roxo);
+    color: #ff553e;
     position: relative;
     font-family: "Frutiger";
     left: 50%;
