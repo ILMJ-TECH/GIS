@@ -146,31 +146,38 @@
 
   .subtexto-inicial {
     position: relative;
-    top: -265px;
+    top: -78px;
     left: 9%;
     font-size: 8px;
-    max-width: 80%;
+    max-width: 170px;
     color: white;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: -240px;
+    top: -140px;
     left: 28px;
     gap: 15px;
     max-width: 80%;
   }
 
   #botaoVerde {
-    width: 120px;
+    position: relative;
+    left: 190px;
+    top: -30px;
+    width: 90px;
     padding: 5px;
     background-color: #00fc01;
     color: var(--azul_escuro);
+    font-size: 10px;
   }
 
   #botaoNormal {
-    width: 120px;
+    position: relative;
+    left: 86px;
+    top: 16px;
+    width: 90px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
@@ -180,13 +187,13 @@
     height: 100%;
     width: 60%;
     position: relative;
-    top: -199px;
+    top: -109px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -400px;
+    top: -350px;
     left: 61%;
     font-size: 19px;
     max-width: 38%;
@@ -197,7 +204,7 @@
   li {
     max-width: 250px;
     position: relative;
-    top: -300px;
+    top: -270px;
     left: 30px;
     list-style-type: none;
   }
@@ -218,7 +225,7 @@
     height: 110%;
     width: 100%;
     position: relative;
-    margin-top: -280px;
+    margin-top: -260px;
     z-index: 0;
   }
 
@@ -462,31 +469,38 @@
 
   .subtexto-inicial {
     position: relative;
-    top: -310px;
+    top: -78px;
     left: 9%;
-    font-size: 10px;
-    max-width: 80%;
+    font-size: 8px;
+    max-width: 170px;
     color: white;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: -270px;
-    left: 50px;
+    top: -140px;
+    left: 28px;
     gap: 15px;
     max-width: 80%;
   }
 
   #botaoVerde {
-    width: 120px;
+    position: relative;
+    left: 190px;
+    top: -30px;
+    width: 90px;
     padding: 5px;
     background-color: #00fc01;
     color: var(--azul_escuro);
+    font-size: 10px;
   }
 
   #botaoNormal {
-    width: 120px;
+    position: relative;
+    left: 86px;
+    top: 16px;
+    width: 90px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
@@ -496,13 +510,13 @@
     height: 100%;
     width: 60%;
     position: relative;
-    top: -200px;
+    top: -100px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -470px;
+    top: -370px;
     left: 61%;
     font-size: 19px;
     max-width: 38%;
@@ -513,7 +527,7 @@
   li {
     max-width: 250px;
     position: relative;
-    top: -300px;
+    top: -245px;
     left: 30px;
     list-style-type: none;
   }
@@ -772,59 +786,67 @@
     max-width: 60%;
   }
 
-  .subtexto-inicial {
+ .subtexto-inicial {
     position: relative;
-    top: -370px;
-    left: 11%;
-    font-size: 12px;
-    max-width: 80%;
+    top: -78px;
+    left: 9%;
+    font-size: 8px;
+    max-width: 170px;
     color: white;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: -350px;
-    left: 70px;
+    top: -140px;
+    left: 28px;
     gap: 15px;
     max-width: 80%;
   }
 
   #botaoVerde {
-    width: 130px;
-    padding: 10px;
+    position: relative;
+    left: 190px;
+    top: -30px;
+    width: 90px;
+    padding: 5px;
     background-color: #00fc01;
     color: var(--azul_escuro);
+    font-size: 10px;
   }
 
   #botaoNormal {
-    width: 130px;
+    position: relative;
+    left: 86px;
+    top: 16px;
+    width: 90px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
   }
+
   #sessao_mobile {
     height: 100%;
     width: 60%;
     position: relative;
-    top: -280px;
+    top: -100px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -550px;
+    top: -370px;
     left: 61%;
-    font-size: 29px;
+    font-size: 19px;
     max-width: 38%;
     color: #960164;
     font-family: "Frutiger";
   }
 
   li {
-    max-width: 350px;
+    max-width: 250px;
     position: relative;
-    top: -400px;
+    top: -205px;
     left: 30px;
     list-style-type: none;
   }
@@ -845,7 +867,7 @@
     height: 160%;
     width: 100%;
     position: relative;
-    margin-top: -300px;
+    margin-top: -200px;
     z-index: 0;
   }
 
@@ -867,14 +889,14 @@
     font-family: "Frutiger";
     position: relative;
     left: 6%;
-    width: 450px;
+    width: 400px;
     font-size:26px ;
   }
 
   .formulario h1 {
     color: var(--roxo);
     position: relative;
-    left: 10%;
+    left: 1%;
     width: 400px;
     font-size: 26px;
     text-align: center;
@@ -885,7 +907,7 @@
     position: relative;
     margin-top: 15px;
     left: 8%;
-    width: 390px;
+    width: 370px;
     border-radius: 10px;
     padding: 10px;
     background-color: #e8e8e8;
@@ -1087,33 +1109,40 @@
     max-width: 60%;
   }
 
-  .subtexto-inicial {
+.subtexto-inicial {
     position: relative;
-    top: -555px;
-    left: 11%;
-    font-size: 18px;
-    max-width: 80%;
+    top: -178px;
+    left: 9%;
+    font-size: 20px;
+    max-width: 400px;
     color: white;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: -520px;
-    left: 110px;
+    top: -300px;
+    left: 370px;
     gap: 15px;
-    max-width: 80%;
+    max-width: 40%;
   }
 
   #botaoVerde {
-    width: 180px;
-    padding: 10px;
+    position: relative;
+    left: 160px;
+    top: -50px;
+    width: 200px;
+    padding: 5px;
     background-color: #00fc01;
     color: var(--azul_escuro);
+    font-size: 20px;
   }
 
   #botaoNormal {
-    width: 180px;
+    position: relative;
+    left: -3px;
+    top: 22px;
+    width: 200px;
     background-color: transparent;
     color: white;
     border: solid 2px white;
@@ -1121,27 +1150,27 @@
 
   #sessao_mobile {
     height: 100%;
-    width: 40%;
+    width: 60%;
     position: relative;
-    top: -400px;
+    top: -200px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -650px;
-    left: 42%;
-    font-size: 39px;
-    max-width: 55%;
+    top: -720px;
+    left: 61%;
+    font-size: 19px;
+    max-width: 38%;
     color: #960164;
     font-family: "Frutiger";
   }
 
   li {
-    max-width: 600px;
+    max-width: 250px;
     position: relative;
-    top: -280px;
-    left: 30px;
+    top: -705px;
+    left: 470px;
     list-style-type: none;
   }
 
@@ -1151,16 +1180,10 @@
     left: 23px;
   }
 
-  li p {
-    position: relative;
-    top: -200px;
-    max-width: 500px;
-  }
-
   li i {
     color: var(--rosa);
     position: relative;
-    top: -178px;
+    top: 24px;
   }
   #desktop {
     display: none;
@@ -1169,7 +1192,7 @@
     height: 160%;
     width: 100%;
     position: relative;
-    margin-top: -300px;
+    margin-top: -670px;
     z-index: 0;
   }
 
@@ -1391,52 +1414,40 @@
     left: 0;
   }
 
-  #verde {
-    color: #00fc01;
-    position: relative;
-    font-size: 48px;
-    top: -749px;
-    left: 11%;
-    max-width: 60%;
-  }
-
-  #text {
-    color: white;
-    position: relative;
-    top: -749px;
-    left: 11%;
-    font-size: 35px;
-    max-width: 60%;
-  }
-
   .subtexto-inicial {
     position: relative;
-    top: -749px;
+    top: -200px;
     left: 11%;
     font-size: 18px;
-    max-width: 80%;
+    max-width: 40%;
     color: white;
   }
 
   .button {
     position: relative;
     display: flex;
-    top: -649px;
-    left: 110px;
+    top: -349px;
+    left: 50%;
     gap: 15px;
-    max-width: 80%;
+    max-width: 50%;
   }
 
   #botaoVerde {
-    width: 180px;
-    padding: 10px;
+    position: relative;
+    left: 195px;
+    width: 250px;
+    padding: 20px;
     background-color: #00fc01;
     color: var(--azul_escuro);
+    width: 200px;
   }
 
-  #botaoNormal {
-    width: 180px;
+  #botaoNormal { position: relative;
+    top: 85px;
+    left: -20px;
+    width: 250px;
     background-color: transparent;
+    width: 200px;
     color: white;
     border: solid 2px white;
   }
@@ -1445,13 +1456,13 @@
     height: 100%;
     width: 40%;
     position: relative;
-    top: -400px;
+    top: -160px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -650px;
+    top: -620px;
     left: 42%;
     font-size: 39px;
     max-width: 55%;
@@ -1460,10 +1471,10 @@
   }
 
   li {
-    max-width: 600px;
+    max-width: 400px;
     position: relative;
-    top: -280px;
-    left: 30px;
+    top: -420px;
+    left: 420px;
     list-style-type: none;
   }
 
@@ -1491,7 +1502,7 @@
     height: 160%;
     width: 100%;
     position: relative;
-    margin-top: -300px;
+    margin-top: -500px;
     z-index: 0;
   }
 
@@ -1634,29 +1645,12 @@
     height: 100%;
   }
 
-  #verde {
-    position: relative;
-    margin-top: -600px;
-    top: 80px;
-    left: 15px;
-    font-size: 30px;
-    color: #00fc01;
-    max-width: 300px;
-  }
-
-  #text {
-    position: relative;
-    top: 80px;
-    left: 15px;
-    color: white;
-    max-width: 300px;
-  }
-
+  
   .subtexto-inicial {
     position: relative;
-    top: 90px;
-    left: 1.5%;
-    font-size: 25px;
+    top: -320px;
+    left: 7%;
+    font-size: 22px;
     max-width: 40%;
     color: white;
         font-family: "Frutiger";
@@ -1666,8 +1660,8 @@
   .button {
     position: relative;
     display: flex;
-    top: 95px;
-    left: 15px;
+    top: -305px;
+    left: 80px;
     gap: 15px;
     max-width: 80%;
   }
@@ -1677,7 +1671,7 @@
     height: 50px;
     background-color: #00fc01;
     color: var(--azul_escuro);
-    font-size: 10px;
+    font-size: 15px;
   }
 
   #botaoNormal {
@@ -1692,13 +1686,13 @@
     height: 80%;
     width: 40%;
     position: relative;
-    top: 125px;
+    top: -210px;
     left: 15px;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -390px;
+    top: -680px;
     left: 480px;
     font-size: 39px;
     width: 400px;
@@ -1708,7 +1702,7 @@
 
   li {
     position: relative;
-    top: -350px;
+    top: -650px;
     left: 550px;
     max-width: 300px;
     list-style-type: none;
@@ -1721,7 +1715,7 @@
   }
 
   li p {
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     top: -40px;
     left: -20px;
@@ -1739,7 +1733,7 @@
 
   .sessao_laranja {
     position: relative;
-    margin-top: -350px;
+    margin-top: -680px;
     width: 100%;
     height: 100%;
   }
@@ -1764,20 +1758,20 @@
 
   .formulario p {
     color: var(--roxo);
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
-    left: 17%;
+    left: 20%;
     top: 20px;
-    width: fit-content;
+    width: 800px;
   }
 
   .formulario h1 {
     color: #ff553e;
     position: relative;
-    left: 12%;
+    left: 16%;
     margin-top: 15px;
     font-size: 20px;
-    width: 900px;
+    width: 700px;
     font-family: "Frutiger";
     text-align: center;
   }
@@ -1860,12 +1854,19 @@
   .footer button {
     position: relative;
     z-index: 10000;
-    top: 470px;
+    top: 450px;
     padding: 15px;
     left: 78px;
     font-size: 25px;
     color: white;
     background-color: var(--rosa);
+  }
+
+  #logo_footer_mobile{
+    position: relative;
+    width: 30%;
+    left: -300px;
+    top: 550px;
   }
 }
 
@@ -1890,28 +1891,10 @@
     height: 100%;
   }
 
-  #verde {
-    position: relative;
-    margin-top: -600px;
-    top: -50px;
-    left: 150px;
-    font-size: 70px;
-    color: #00fc01;
-    max-width: 500px;
-  }
-
-  #text {
-    position: relative;
-    top: -50px;
-    left: 150px;
-    color: white;
-    max-width: 300px;
-  }
-
   .subtexto-inicial {
     position: relative;
-    top: -50px;
-    left: 150px;
+    top: -380px;
+    left: 90px;
     font-size: 25px;
     max-width: 40%;
     color: white;
@@ -1922,8 +1905,8 @@
   .button {
     position: relative;
     display: flex;
-    top: -25px;
-    left: 150px;
+    top: -355px;
+    left: 90px;
     gap: 15px;
     max-width: 500px;
   }
@@ -1947,24 +1930,24 @@
     height: 80%;
     width: 40%;
     position: relative;
-    top: 70px;
-    left: 150px;
+    top: -180px;
+    left: 80px;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -500px;
-    left: 640px;
+    top: -760px;
+    left: 570px;
     font-size: 39px;
-    width: 300px;
+    width: 500px;
     color: #960164;
     font-family: "Frutiger";
   }
 
   li {
     position: relative;
-    top: -480px;
-    left: 710px;
+    top: -710px;
+    left: 640px;
     max-width: 300px;
     list-style-type: none;
   }
@@ -1994,7 +1977,7 @@
 
   .sessao_laranja {
     position: relative;
-    margin-top: -450px;
+    margin-top: -700px;
     width: 100%;
     height: 100%;
   }
@@ -2123,6 +2106,13 @@
     color: white;
     background-color: var(--rosa);
   }
+
+  #logo_footer_mobile{
+    position: relative;
+    width: 20%;
+    top:468px;
+    left: -290px;
+  }
 }
 
 @media screen and (min-width: 1291px) and (max-width: 1430px) {
@@ -2132,33 +2122,11 @@
   #header_desktop {
     width: 100%;
   }
-  #logo_header {
-    position: relative;
-    top: -650px;
-    width: 40%;
-    left: 70px;
-    max-width: 300px;
-  }
-  #verde {
-    color: #00fc01;
-    position: relative;
-    z-index: 10000;
-    margin-top: -35vw;
-    top: -180px;
-    left: 100px;
-    max-width: 500px;
-  }
-  #text {
-    color: white;
-    position: relative;
-    top: -180px;
-    left: 100px;
-    max-width: 500px;
-  }
+  
   .subtexto-inicial {
     position: relative;
-    top: -160px;
-    left: 7%;
+    top: -390px;
+    left: 6%;
     font-size: 25px;
     max-width: 40%;
     color: white;
@@ -2168,8 +2136,8 @@
   .button {
     position: relative;
     display: flex;
-    top: -100px;
-    left: 7.6%;
+    top: -350px;
+    left: 6.6%;
     gap: 15px;
     max-width: 50%;
   }
@@ -2193,13 +2161,13 @@
     height: 80%;
     width: 30%;
     position: relative;
-    top: 170px;
+    top: -180px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -350px;
+    top: -690px;
     left: 500px;
     width: 50%;
     font-size: 59px;
@@ -2209,8 +2177,8 @@
 
   li {
     position: relative;
-    top: -300px;
-    left: 470px;
+    top: -610px;
+    left: 550px;
     max-width: 500px;
     list-style-type: none;
   }
@@ -2240,7 +2208,7 @@
 
   .sessao_laranja {
     position: relative;
-    margin-top: -300px;
+    margin-top: -600px;
     width: 100%;
     height: 100%;
   }
@@ -2267,7 +2235,8 @@
     color: var(--roxo);
     font-size: 50px;
     position: relative;
-    left: 20%;
+     left: 50%;
+    transform: translateX(-50%);
     top: 20px;
     width: fit-content;
   }
@@ -2275,7 +2244,8 @@
   .formulario h1 {
     color: #ff553e;
     position: relative;
-    left: 15%;
+     left: 50%;
+    transform: translateX(-50%);
     margin-top: 15px;
     font-size: 26px;
     width: 900px;
@@ -2287,7 +2257,8 @@
     display: flex;
     position: relative;
     margin-top: 20px;
-    left: 8%;
+     left: 50%;
+    transform: translateX(-50%);
     border-radius: 10px;
     padding: 10px;
     background-color: #e8e8e8;
@@ -2301,7 +2272,8 @@
     font-size: 20px;
     position: relative;
     top: 15px;
-    left: 18%;
+     left: 50%;
+    transform: translateX(-50%);
     width: fit-content;
   }
 
@@ -2309,21 +2281,29 @@
     font-size: 20px;
     position: relative;
     top: 21px;
-    left: 35%;
+     left: 50%;
+    transform: translateX(-50%);
     width: fit-content;
   }
 
   .formulario button {
     position: relative;
     top: 59px;
-    left: 32%;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 10px;
     font-size: 25px;
     background-color: var(--roxo);
     color: white;
     border: none;
     width: fit-content;
+    transition: all .6s ease-in-out;
   }
+.formulario button:hover{
+  background-color: white;
+  color: var(--roxo);
+}
+
   #footer_mobile {
     display: none;
   }
@@ -2362,7 +2342,7 @@
   .footer button {
     position: relative;
     z-index: 10000;
-    top: -140px;
+    top: -80px;
     padding: 15px;
     left: 78px;
     font-size: 15px;
@@ -2372,8 +2352,8 @@
 
   #logo_footer_mobile {
     position: relative;
-    width: 50%;
-    left: -195px;
+    width: 20%;
+    left: -165px;
     margin-top: 186px;
   }
 }
@@ -2392,39 +2372,13 @@
     display: none;
   }
 
-  #logo_header {
-    position: relative;
-    top: -700px;
-    margin-left: 7%;
-    max-width: 30%;
-    max-height: 5%;
-    left: 0;
-  }
-
-  #verde {
-    color: #00fc01;
-    position: relative;
-    font-size: 60px;
-    top: -705px;
-    left: 8%;
-    max-width: 50%;
-  }
-
-  #text {
-    color: white;
-    position: relative;
-    top: -705px;
-    left: 8%;
-    font-size: 60px;
-    max-width: 50%;
-
-  }
+ 
 
   .subtexto-inicial {
     position: relative;
-    top: -695px;
-    left: 8%;
-    font-size: 25px;
+    top: -425px;
+    left: 6%;
+    font-size: 30px;
     max-width: 40%;
     color: white;
     font-family: "Frutiger";
@@ -2434,8 +2388,8 @@
   .button {
     position: relative;
     display: flex;
-    top: -670px;
-    left: 7.6%;
+    top: -400px;
+    left: 6%;
     gap: 15px;
     max-width: 50%;
   }
@@ -2474,13 +2428,13 @@
     height: 8%;
     width: 30%;
     position: relative;
-    top: -28vw;
+    top: -160px;
     left: 2%;
   }
 
   .texto_sessao2 {
     position: relative;
-    top: -1100px;
+    top: -800px;
     left: 600px;
     width: 50%;
     font-size: 69px;
@@ -2490,8 +2444,8 @@
 
   li {
     position: relative;
-    top: -1090px;
-    left: 650px;
+    top: -780px;
+    left: 660px;
     max-width: 530px;
     list-style-type: none;
   }
@@ -2521,7 +2475,7 @@
 
   .sessao_laranja {
     position: relative;
-    margin-top: -1100px;
+    margin-top: -800px;
     width: 100%;
     height: 100%;
   }
@@ -2548,7 +2502,8 @@
     color: var(--roxo);
     font-size: 50px;
     position: relative;
-    left: 28%;
+    left: 50%;
+    transform: translateX(-50%);
     top: 20px;
     width: fit-content;
   }
@@ -2556,11 +2511,12 @@
   .formulario h1 {
     color: #ff553e;
     position: relative;
-    left: 18%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     margin-top:25px ;
     font-size: 30px;
-    max-width: 1250px;
+    max-width: 1100px;
     font-family: "Frutiger";
   }
 
@@ -2568,7 +2524,8 @@
     display: flex;
     position: relative;
     margin-top: 20px;
-    left: 23%;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 10px;
     padding: 10px;
     background-color: #e8e8e8;
@@ -2604,7 +2561,15 @@
     color: white;
     border: none;
     width: fit-content;
+    transition: all .6s ease;
   }
+
+  .formulario button:hover{
+    background-color: white;
+    color: var(--roxo);
+  }
+
+
   #footer_mobile {
     display: none;
   }
@@ -2642,7 +2607,7 @@
   .footer button {
     position: relative;
     z-index: 10000;
-    top: -210px;
+    top: -120px;
     padding: 15px;
     left: 78px;
     font-size: 25px;
@@ -2652,8 +2617,8 @@
 
   #logo_footer_mobile {
     position: relative;
-    width: 50%;
-    left: -325px;
-    margin-top: 180px;
+    width: 20%;
+    left: -305px;
+    margin-top: 200px;
   }
 }
